@@ -1,4 +1,4 @@
-dist: precise
+dist: xenial
 
 language: php
 
@@ -15,7 +15,7 @@ cache:
 
 before_script:
   - cp .env.travis .env
-  - sudo mysql -e 'CREATE DATABASE travis;'
+  - sudo mysql -e 'CREATE DATABASE testing;'
   - composer self-update
   - composer install --no-interaction
   - php artisan key:generate
