@@ -4,7 +4,9 @@
     "description": "An Invoice Generator based on the Laravel framework.",
     "keywords": [
         "framework",
-        "laravel"
+        "laravel",
+        "dokku",
+        "heroku"
     ],
     "license": "MIT",
     "require": {

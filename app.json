@@ -1,0 +1,18 @@
+{
+    "name": "Invoice Generator",
+    "description": "Invoice Generator is an open source Laravel application that makes it easier to generate standardized invoices in PDF format for download.",
+    "repository": "https://github.com/dean1012/invoice-generator",
+    "addons": ["dokku-mariadb"],
+    "keywords": [
+        "framework",
+        "laravel",
+        "dokku",
+        "heroku"
+    ],
+    "scripts": {
+        "dokku": {
+            "predeploy": ".dokku/pre-deploy.sh",
+            "postdeploy": ".dokku/post-deploy.sh"
+        }
+    }
+}
